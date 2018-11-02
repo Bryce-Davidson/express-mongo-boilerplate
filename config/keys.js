@@ -1,0 +1,10 @@
+MONGO_DATABASE = {
+  USER: '',
+  PASSWORD: '',
+  NAME: ''
+}
+
+module.exports = {
+  MONGO_DATABASE,
+  MONGOURI: `mongodb://${MONGO_DATABASE.USER}:${MONGO_DATABASE.PASSWORD}@ds121343.mlab.com:21343/${MONGO_DATABASE.NAME}`
+}
