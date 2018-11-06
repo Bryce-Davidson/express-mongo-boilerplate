@@ -1,4 +1,4 @@
-MONGO_DATABASE = {
+const MONGO_DATABASE = {
   USER: '',
   PASSWORD: '',
   NAME: '',
